@@ -1,0 +1,10 @@
+node_modules/
+check/out/
+.claude/evidence/
+.claude/settings.local.json
+
+# Installed by `npx impeccable install` from its own repo, not part of this one
+.claude/skills/impeccable/
+.claude/agents/impeccable-*.md
+.agents/skills/impeccable/
+.impeccable/config.local.json

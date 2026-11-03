@@ -1,0 +1,15 @@
+{
+  "name": "claude-website-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build a phone-first service business website with Claude Code, then check it like a customer would.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check": "node check/check.mjs",
+    "test": "node --test check/test/check.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}
